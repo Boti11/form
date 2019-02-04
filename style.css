@@ -1,0 +1,44 @@
+.body{
+    width: 100px;
+  height: 100px;
+  background-color: #0F0B0B;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin: 4%;
+  
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%  {background-color:#0F0B0B;}
+    50%  {background-color: #9DBA7A;}
+    100%  {background-color:#0F0B0B;}
+  
+  }
+ 
+
+  .center{
+      display: flex;
+      justify-content: center;
+  }
+
+  .text{
+      font-weight: bold;
+      font-size: 130%;
+      color:  #9DBA7A;
+     -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+     animation-name: example1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+       margin: 4%;
+  }
+  @keyframes example1 {
+    0%  {color: #9DBA7A;}
+    50%  {color:#0F0B0B;}
+    100%  {color: #9DBA7A;}
+  
+  }
